@@ -1,0 +1,240 @@
+/* --------------------------- HTML Elements --------------------------- */
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* --------------------------- Sections --------------------------- */
+.colored {
+    background-color: #ff4c68;
+}
+
+.non-color {
+    background-color: #fff;
+}
+
+/* --------------------------- Navbar --------------------------- */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* --------------------------- Title Section --------------------------- */
+#title {
+    text-align: left;
+}
+
+.main-heading {
+    color: white;
+    font-weight: 900;
+    size: 3rem;
+    line-height: 1.5;
+    padding-top: 2.5rem;
+    text-align: left;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.iphone {
+    transform: rotate(25deg);
+    width: 17%;
+    position: absolute;
+    right: 25%;
+}
+
+
+/* Buttons */
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+.apple:hover {
+    background-color: #fff;
+    border-color: #fff;
+    color: #000;
+}
+
+/* --------------------------- Features --------------------------- */
+#features {
+    position: relative;
+    padding: 7% 5%;
+
+}
+
+.icons {
+    color: #ff4c68;
+    padding: 5%;
+}
+
+.heading-features {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.main-text {
+    color: #8f8f8f;
+    font-size: large;
+}
+
+/*--------------------------- Testimonials --------------------------- */
+#testimonials {
+    color: #fff;
+}
+
+.testimonial-head {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.5;
+    padding-bottom: 5%;
+}
+
+.testimonial-img {
+    width: 15%;
+    border-radius: 100%;
+}
+
+.bio {
+    display: block;
+    margin-top: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/*--------------------------- Press --------------------------- */
+#press {
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* --------------------------- Pricing --------------------------- */
+.card_deck {
+    padding: 5% 15%;
+}
+
+#pricing {
+    padding: 100px;
+}
+
+.price-text {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-footer {
+    background-color: #fff;
+    border: none;
+}
+
+.price-head {
+    font-weight: 900;
+    size: 3rem;
+    line-height: 1.5;
+    color: #000;
+}
+
+.dog-breed {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin: 2%;
+}
+
+.plan-price {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.card-text {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: large;
+}
+
+/* Buttons */
+.sign-in-btn {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.sign-in-btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/*--------------------------- Call to action ---------------------------*/
+#cta {
+    padding: 5%;
+}
+
+.cta-head {
+    color: white;
+    font-weight: 900;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+/* --------------------------- Footer ---------------------------*/
+#footer {
+    padding: 5%;
+}
+
+.copy {
+    color: #8f8f8f;
+}
+
+.foot-icons {
+    padding: 1%;
+}
+
+.icon-btn {
+    background-color: #fff;
+    color: #000;
+    border: none;
+}
+
+.icon-btn:hover {
+    color: #000;
+}
+
+/* --------------------------- Media Queries --------------------------- */
+@media (max-width: 991px)
+{
+    #title {
+        text-align: center;
+    }
+
+    .iphone {
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+    } 
+}
+
+/* --------------------------- XX ---------------------------------- */
